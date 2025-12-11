@@ -14,14 +14,14 @@ body {
     justify-content: flex-start; /* Alinha o conteúdo ao topo em telas pequenas */
     align-items: center; /* Centraliza o conteúdo horizontalmente */
     min-height: 100vh; /* Ocupa no mínimo 100% da altura da viewport (tela visível) */
-    background-color: #024D6D ; /* Cor de fundo suave para a página */
+    background-color: #03b1fc ; /* Cor de fundo suave para a página */
     overflow-y: auto; /* Permite rolagem vertical se o conteúdo for maior que a tela */
     overflow-x: hidden; /* Evita rolagem horizontal indesejada */
 }
 
 /* --- Estilo do Contêiner Principal do Jogo --- */
 .game-container {
-    background-color:#ffffff ; /* Um tom de azul mais claro para o fundo do contêiner */
+    background-color:#070fed ; /* Um tom de azul mais claro para o fundo do contêiner */
     padding: 15px; /* Espaçamento interno reduzido para melhor ajuste em telas pequenas */
     border-radius: 15px; /* Bordas arredondadas para um visual mais suave */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito de profundidade */
@@ -34,7 +34,7 @@ body {
 
 /* --- Estilo do Título Principal (Jogo da Memória) --- */
 h1 {
-    color: #39A7CA; /* Cor verde escura para o título */
+    color: #ffffff; /* Cor verde escura para o título */
     margin-bottom: 15px; /* Espaçamento abaixo do título */
     /* Tamanho de fonte responsivo:
        - 'clamp()' escolhe um valor entre um mínimo (1.5em), um ideal (7vw - 7% da largura da viewport), e um máximo (2.5em).
@@ -46,7 +46,7 @@ h1 {
 .score-board {
     /* Tamanho de fonte responsivo similar ao H1 */
     font-size: clamp(1em, 4vw, 1.5em);
-    color: #39A7CA; /* Outro tom de verde para o texto do placar */
+    color: #ffffff; /* Outro tom de verde para o texto do placar */
     margin-bottom: 20px; /* Espaçamento abaixo do placar */
     font-weight: bold; /* Deixa o texto em negrito */
 }
